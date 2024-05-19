@@ -1,0 +1,184 @@
+*{
+    font-family: 'Inter',sans-serif;
+
+}
+
+.inicio {
+    background-image: linear-gradient(#285af25e, #0439d95f), url('../../Assets/image.jpg');
+    height: 60vh;
+    color: white;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio h1 {
+    margin: 15px;
+    font-weight: 600;
+    font-size: 3.9vw; /* Alterado para unidade de largura de viewport (vw) para torná-lo responsivo */
+    font-family: 'Inter', sans-serif;
+}
+
+.inicio span {
+    font-size: 1.5vw; /* Alterado para unidade de largura de viewport (vw) para torná-lo responsivo */
+}
+
+.inicio header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+
+
+.access {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    color: blue;
+}
+
+.description input {
+    width: 40%;
+    padding: 0.6rem;
+    border-radius: 4px;
+    box-shadow: 1px 3px 5px grey;
+    border: 0.6px solid #F7F4F2;
+    background-color: #F7F4F2;
+}
+
+.inicio nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 40px;
+}
+
+nav img {
+    max-width: 100%; /* Adicionado para garantir que a imagem da navegação seja responsiva */
+}
+
+.access li {
+    color: #EDF205;
+}
+
+#entrar {
+    padding: 0.4rem 1rem; /* Alterado para padding vertical e horizontal */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #EDF205;
+    border: none;
+    width: auto; /* Removido width para que o botão tenha largura automática */
+}
+
+.description {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description p {
+    width: 50%; /* Alterado para 80% para uma melhor responsividade */
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description button {
+    padding: 10px 20px; /* Alterado para padding vertical e horizontal */
+    background-color: #EDF205;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Aqui você pode adicionar estilos específicos para dispositivos móveis */
+    nav{
+        width: 100%;
+
+    }
+
+    
+
+    .inicio h1 {
+        font-size: 5vw; /* Por exemplo, aumentando o tamanho da fonte */
+    }
+
+    .inicio span {
+        font-size: 2.5vw; /* Por exemplo, aumentando o tamanho da fonte */
+    }
+
+    .description p {
+        width: 90%; /* Por exemplo, aumentando a largura do parágrafo */
+    }
+}
+
+.cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EDF205;
+
+    padding: 3rem;
+    font-family: 'Inter',sans-serif;
+}
+
+.yellow{
+    width: 100px; /* Define o comprimento da linha */
+    height: 10px; /* Define a espessura da linha */
+    border-radius: 5px; /* Define o arredondamento das bordas */
+    margin: 20px 0;
+    background-color: #EDF205;
+}
+
+
+.conteiner{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 30vh;
+}
+
+
+.button{
+    background-color: white;
+    padding: 0.6rem;
+    margin-top: 50px;
+    border: 3px solid #0439D9;
+    width: 10%;
+}
+

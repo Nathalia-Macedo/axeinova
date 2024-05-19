@@ -1,0 +1,59 @@
+.footer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B4E3F5;
+
+    font-family: "Inter",sans-serif;
+}
+
+.content_footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 40vh;
+border-bottom: 1px solid #0439D9 ;
+}
+
+
+.title{
+font-weight: 600;
+font-size: 25px;
+font-weight: 'Inter',sans-serif;
+color: #0439D9;
+margin-bottom: 40px;
+}
+
+.description_footer{
+    font-weight: 600;
+font-weight: 'Inter',sans-serif;
+color: #0439D9;
+width: 70%;
+padding: 1rem;
+text-align: center;
+}
+
+#check{
+    border: none;
+    padding: 0.6rem;
+    width: 50%;
+    outline: none;
+}
+
+#checkT{
+    width: fit-content;
+}
+
+.concord{
+    padding: 1rem;
+}
+
+.footer button{
+    background-color: #0439D9;
+    border: none;
+    padding: 0.6rem;
+    color: white;
+    width: 15%;
+    font-size: 10px;
+}
